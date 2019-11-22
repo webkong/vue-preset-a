@@ -1,5 +1,6 @@
-# {{name}}
-{{description}}
+# {{ProjectName}}
+
+{{Description}}
 
 ## Project setup
 

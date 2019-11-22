@@ -15,10 +15,8 @@
 This is a project template for [vue-cli](https://cli.vuejs.org/zh/).
 
 ``` bash
-$ npm install -g @vue/cli @vue/cli-init
-$ vue init webpack-simple my-project
-$ cd my-project
-$ npm install
-$ npm run dev
+npm install -g @vue/cli
+vue create webkong/vue-preset-a my-project
+npm run serve
 ```
 
