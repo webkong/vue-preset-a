@@ -1,0 +1,19 @@
+body,
+html {
+  font-family: 'Helvetica';
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  color: #333333;
+}
+
+.hidden {
+  display: none;
+}
+
+@function vh($value) {
+  @return ($value / 1080 / 100)+vh;
+}
+
+@function vw($value) {
+  @return ($value / 1920 / 100)+vw;
+}

@@ -1,33 +1,24 @@
-# webpack-simple
+# vue-cli-multiProject
 
-> A simple Vue 2.0 Webpack & `vue-loader` setup for quick prototyping. Note this template is not suitable for production - for that you may want to use the [full webpack template](https://github.com/vuejs-templates/webpack).
+> 多项目分别打包，支持环境变量配置
 
-> This template is Vue 2.0 compatible. For Vue 1.x use this command: `vue init webpack-simple#1.0 my-project`
+```
+"axios": "^0.19.0",
+"core-js": "^3.4.0",
+"regenerator-runtime": "^0.13.3",
+"vue": "^2.6.10",
+"vue-i18n": "^8.15.0"
+```
 
 ### Usage
 
-This is a project template for [vue-cli](https://github.com/vuejs/vue-cli).
+This is a project template for [vue-cli](https://cli.vuejs.org/zh/).
 
 ``` bash
-$ npm install -g vue-cli
+$ npm install -g @vue/cli @vue/cli-init
 $ vue init webpack-simple my-project
 $ cd my-project
 $ npm install
 $ npm run dev
 ```
 
-### What's Included
-
-- `npm run dev`: Webpack + `vue-loader` with proper config for source maps & hot-reload.
-
-- `npm run build`: build with HTML/CSS/JS minification.
-
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader). Also check out the [breaking changes in vue-loader@9.0.0](https://github.com/vuejs/vue-loader/releases/tag/v9.0.0).
-
-### Fork It And Make Your Own
-
-You can fork this repo to create your own boilerplate, and use it with `vue-cli`:
-
-``` bash
-vue init username/repo my-project
-```
